@@ -6,8 +6,8 @@
   python3 gdrive_upload_folder.py -s source_folder -d destination_folder_in_google_drive -p parent_directory
   (script will automatically create destination folder if it not yet created).
   * Notice problem happen with httplib2 and google-api-python-client, if you got error "httplib2.RedirectMissingLocation: Redirected but the response is missing a Location: header.".
-  Just remove httplib2 and reinstall with older version:
-  check version: pip3 freeze
-  remove current httplib2: pip3 uninstall httplib2
-  reinstall with working version: pip3 install httplib2==0.15.0
-  More bugs please respond, thank you.
+  * Just remove httplib2 and reinstall with older version:
+  * Check version: pip3 freeze
+  * Remove current httplib2: pip3 uninstall httplib2
+  * Reinstall with working version: pip3 install httplib2==0.15.0
+  * More bugs please respond, thank you.
